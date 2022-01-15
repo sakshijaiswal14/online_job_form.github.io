@@ -1,0 +1,150 @@
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 38px;
+    text-shadow: 0 0 5px rgb(202, 195, 195);
+}
+
+body {
+    display: block;
+    margin: 30px;
+    background-image: url('images/1_oRRDzjOfHrRFysTgaOrEwg.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+fieldset {
+    background-color: rgba(0,0,0,0.5);
+    border: 1.5px solid white;
+    padding: 12px;
+    margin: 15px;
+    box-shadow: 0 0 10px black;
+}
+
+fieldset legend {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 24px;
+    font-style: bold;
+    padding: 5px 10px;
+    border: 1.5px solid white;
+}
+
+.optional-input {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: whitesmoke;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.first {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+    color: whitesmoke;
+}
+
+.last {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-left: 50px;
+    padding-right: 80px;
+    color: whitesmoke;
+}
+
+.button{
+    display:inline-block;
+    padding:0.15em 1.2em;
+    border:0.1em solid #ece5e5;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.1em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    background-color: transparent;
+    color:#eeeaea;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+.button:hover{
+    color:azure;
+    background-color:#0c0c0c;
+    }
+    @media all and (max-width:30em){
+    .button1{
+    display:block;
+    margin:0.4em auto;
+    }
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 10px;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+td {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: whitesmoke;
+}
+
+th {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    padding: 8px;
+    color: whitesmoke;
+}
+
+textarea {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    width: 210px;
+}
+
+input {
+    font-size: 18px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type="checkbox" ] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 0px;
+    padding: initial;
+    border: initial;
+}
+
+.text {
+    color: transparent;
+}
+
+div {
+    box-shadow: white;
+}
